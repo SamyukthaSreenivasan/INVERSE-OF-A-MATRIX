@@ -15,12 +15,19 @@ Use the function linalg.inv(a) to find the inverse.
 Print the variable and end the program.
 ## Program:
 #Program to find the inverse of a matrix.
+
 #Developed by: Samyuktha.S
+
 #RegisterNumber:22005276
+
 import numpy as np
+
 a=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+
 res=np.linalg.inv(a)
+
 print(res)
+
 ## Output:
 ![output](/read.png)
 ## Result:
